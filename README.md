@@ -1,16 +1,101 @@
-# React + Vite
+# 🍽️ Recipe Notebook
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **Recipe Notebook repository!**
+This is a modern, responsive, and dynamic recipe web application built using **React**, **Zustand**, **Framer Motion**, and **Tailwind CSS**, powered by the **MealDB API**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 🍲 **Explore Recipes:** Browse meals by categories
+* 📖 **Detailed View:** Get full recipe instructions and ingredients
+* 🧾 **Ingredient List:** Cleanly structured with measurements
+* 🎬 **YouTube Integration:** Watch recipe preparation videos
+* ❤️ **Favorites System:** Add / remove meals from favorites
+* 💾 **Persistent Storage:** Data saved using LocalStorage
+* ⚡ **Smooth Animations:** Powered by Framer Motion
+* 📱 **Responsive Design:** Optimized for all screen sizes
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Framework:** React (Vite)
+* **State Management:** React(Context)
+* **Styling:** Tailwind CSS
+* **Animations:** Framer Motion
+* **API:** TheMealDB API
+* **HTTP Client:** Axios
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+├── assets/              # Images and static files
+├── components/          # Reusable UI components (About, Hero, Nav)
+├── pages/               # Application pages (Meals, Categories, etc.)
+├── context/               # React context global state
+│   └── MainContext
+├── App.jsx              # Main App layout
+└── main.jsx             # Entry point
+```
+
+---
+
+## 💻 Getting Started
+
+### 📌 Prerequisites
+
+Make sure you have **Node.js** installed on your system.
+
+---
+
+### ⚙️ Installation
+
+Clone the repository:
+
+```bash
+(https://github.com/SelvaRaj-Sel/Recipe-Notes.git)
+cd Recipe-Notes
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+## 🎨 Design & Customization
+
+* **Layout:** Flexbox & Grid-based responsive layout
+* **Animations:** Smooth transitions using Framer Motion
+* **Typography:** Clean and readable font hierarchy
+* **Color Style:** Black background with subtle gray tones and accent highlights
+
+---
+
+## 💡 Key Highlights
+
+* Optimized API handling and data transformation
+* Clean component-based architecture
+* Scalable and maintainable folder structure
+
+---
+
+## 🔮 Future Improvements
+
+* 📝 Add custom recipes
+* 🔐 User authentication system
+* ⭐ Ratings & reviews
+* 🌍 Multi-language support
+
+---
