@@ -1,0 +1,16 @@
+:root {
+  --text: #fcfcfc;
+  --text-h: #b6a9d6;
+  --bg: #000000;  
+  color-scheme: light dark;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+
+
+
